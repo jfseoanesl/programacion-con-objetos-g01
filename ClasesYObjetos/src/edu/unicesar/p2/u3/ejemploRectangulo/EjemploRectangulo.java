@@ -14,15 +14,18 @@ public class EjemploRectangulo {
     public static void main(String[] arg){
         
         // crea objeto rectangulo a
-        Rectangulo a;
-        a = new Rectangulo();
+        Rectangulo a = new Rectangulo();
         a.setBase(10);
         a.setAltura(7);
         imprimirRectangulo(a);
+        
         // crea objeto rectangulo b
-        Rectangulo b = new Rectangulo();
+        Rectangulo b = new Rectangulo(20,20);
         imprimirRectangulo(b);
-    
+       
+        // crear rectangulo C
+        Rectangulo c = new Rectangulo(25);
+        imprimirRectangulo(c);
         
     }
     

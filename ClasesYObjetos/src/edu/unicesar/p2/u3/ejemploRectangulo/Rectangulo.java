@@ -21,15 +21,30 @@ public class Rectangulo {
     // atributo de clase
     public static String color = "Azul";
     
-    /** defino el metodo constructor */
+    /** defino el metodo constructor por defecto */
     public Rectangulo(){
-        this.base=5;
-        this.altura=5;
+        this(0,0);
     }
+    /** defino el metodo constructor sobrecargado 
+     * @param  b  para base
+     * @param a para altura
+     */
+    public Rectangulo(double b, double a){
+        this.base=b;
+        this.altura=a;
+    }
+    
+    public Rectangulo(double b){
+        this(b, 15);
+    }
+    
+    
+      
+    
     
     // metodos getter base y altura
     public double getBase(){
-        return this.base;
+        return base;
     }
     public double getAltura(){
         return this.altura;
@@ -53,5 +68,10 @@ public class Rectangulo {
     public double calcularPerimetro(){
         return 2*this.base + 2 * this.altura;
     }
+
+  
+
+   
+    
     
 }

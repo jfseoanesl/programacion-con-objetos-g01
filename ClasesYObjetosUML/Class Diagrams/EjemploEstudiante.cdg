@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="EjemploEstudiante">
+  <ClassDiagramComponents>
+    <Class name="Estudiante" package="" visibility="public" xPosition="55.0" yPosition="72.0">
+      <Fields>
+        <Field name="n1" type="double" visibility="private"/>
+        <Field name="n2" type="double" visibility="private"/>
+        <Field name="n3" type="double" visibility="private"/>
+        <Field name="p1" type="double" visibility="private" isStatic="true" isFinal="true"/>
+        <Field name="p2" type="double" visibility="private" isStatic="true" isFinal="true"/>
+        <Field name="p3" type="double" visibility="private" isStatic="true" isFinal="true"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="Estudiante" returnType="void" visibility="public"/>
+        <Method name="getN1" returnType="double" visibility="public"/>
+        <Method name="getN2" returnType="double" visibility="public"/>
+        <Method name="getN3" returnType="double" visibility="public"/>
+        <Method name="setN1" returnType="double" visibility="public">
+          <Argument type="double" name="n"/>
+        </Method>
+        <Method name="setN2" returnType="double" visibility="public">
+          <Argument type="double" name="n"/>
+        </Method>
+        <Method name="setN3" returnType="double" visibility="public">
+          <Argument type="double" name="n"/>
+        </Method>
+        <Method name="calcularDefinitiva" returnType="double" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="EjemploEstudiante" package="" visibility="public" xPosition="495.0" yPosition="72.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <UseRelation name="Usa" source="EjemploEstudiante" target="Estudiante" sourceCardinality="1..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
