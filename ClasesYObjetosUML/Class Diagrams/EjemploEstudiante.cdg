@@ -29,7 +29,7 @@
         <Method name="calcularDefinitiva" returnType="double" visibility="public"/>
       </Methods>
     </Class>
-    <Class name="EjemploEstudiante" package="" visibility="public" xPosition="495.0" yPosition="72.0">
+    <Class name="EjemploEstudiante" package="" visibility="public" xPosition="476.0" yPosition="205.0">
       <Fields/>
       <Constructors/>
       <Methods/>

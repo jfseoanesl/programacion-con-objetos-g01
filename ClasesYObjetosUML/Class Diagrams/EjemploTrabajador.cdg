@@ -2,32 +2,36 @@
 
 <ClassDiagram name="EjemploTrabajador">
   <ClassDiagramComponents>
-    <Class name="Trabajador" package="" visibility="public" xPosition="67.0" yPosition="66.0">
+    <Class name="Trabajador" package="" visibility="public" xPosition="64.0" yPosition="126.0">
       <Fields>
         <Field name="horasTrabajadas" type="int" visibility="private"/>
-        <Field name="tarifaHora" type="double" visibility="private" isStatic="true"/>
+        <Field name="tarifa" type="double" visibility="private" isStatic="true"/>
       </Fields>
       <Constructors/>
       <Methods>
         <Method name="Trabajador" returnType="void" visibility="public"/>
-        <Method name="getHorasTrabajadas" returnType="int" visibility="public"/>
-        <Method name="getTarifaHora" returnType="double" visibility="public" isStatic="true"/>
+        <Method name="getHorastrabajadas" returnType="int" visibility="public"/>
+        <Method name="getTarifa" returnType="double" visibility="public" isStatic="true"/>
         <Method name="setHorasTrabajadas" returnType="int" visibility="public">
-          <Argument type="int" name="h"/>
+          <Argument type="int" name="n"/>
         </Method>
-        <Method name="setTarifaHora" returnType="double" visibility="public" isStatic="true">
+        <Method name="setTarifa" returnType="double" visibility="public" isStatic="true">
           <Argument type="double" name="t"/>
         </Method>
         <Method name="calcularSueldo" returnType="double" visibility="public"/>
       </Methods>
     </Class>
-    <Class name="EjemploTrabajador" package="" visibility="public" xPosition="502.0" yPosition="159.0">
+    <Class name="EjemploTrabajador" package="" visibility="public" xPosition="514.0" yPosition="185.0">
       <Fields/>
       <Constructors/>
-      <Methods/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public">
+          <Argument type="String[]" name="arg"/>
+        </Method>
+      </Methods>
     </Class>
   </ClassDiagramComponents>
   <ClassDiagramRelations>
-    <UseRelation name="use" source="EjemploTrabajador" target="Trabajador" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation name="usa" source="EjemploTrabajador" target="Trabajador" sourceCardinality="1..1" targetCardinality="1..1"/>
   </ClassDiagramRelations>
 </ClassDiagram>

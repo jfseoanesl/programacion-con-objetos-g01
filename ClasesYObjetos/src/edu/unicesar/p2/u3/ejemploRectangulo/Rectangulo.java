@@ -23,19 +23,8 @@ public class Rectangulo {
     
     /** defino el metodo constructor por defecto */
     public Rectangulo(){
-        this(0,0);
-    }
-    /** defino el metodo constructor sobrecargado 
-     * @param  b  para base
-     * @param a para altura
-     */
-    public Rectangulo(double b, double a){
-        this.base=b;
-        this.altura=a;
-    }
-    
-    public Rectangulo(double b){
-        this(b, 15);
+       this.base=0;
+       this.altura=0;
     }
     
     
@@ -44,7 +33,7 @@ public class Rectangulo {
     
     // metodos getter base y altura
     public double getBase(){
-        return base;
+        return this.base;
     }
     public double getAltura(){
         return this.altura;

@@ -14,7 +14,7 @@
         <Method name="calculaPerimetro" returnType="double" visibility="public"/>
       </Methods>
     </Class>
-    <Class name="EjemploRectangulo" package="" visibility="public" xPosition="385.0" yPosition="195.0">
+    <Class name="EjemploRectangulo" package="" visibility="public" xPosition="379.0" yPosition="181.0">
       <Fields/>
       <Constructors/>
       <Methods/>
